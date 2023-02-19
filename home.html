@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230219150359">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="140" class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo"><img src="img/logo.svg" alt="logo"></a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="#" class="menu__link" data-goto=".page__explore ">Explore</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link" data-goto=".page__creators">Creators</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link" data-goto=".page__subscribe">Community</a>
+							</li>
+						</ul>
+					</nav>
+					<button type="button" class="menu-icon icon-menu"><span></span></button>
+				</div>
+				<div class="header__active">
+					<a href="#" data-da=".menu__body, 380" class="header__button button">Connect Wallet</a>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__main main">
+				<div class="main__container">
+					<div class="main__content content-main">
+						<h1 class="content-main__title">Explore, Buy and Sell the <span>Best NFTs!</span></h1>
+						<div class="content-main__actives">
+							<a href="#" class="content-main__button button button--yellow">Explore</a>
+							<a href="#" class="content-main__button button">Create</a>
+						</div>
+						<div class="content-main__items">
+							<div class="content-main__item item-content-main">
+								<div class="item-content-main__value">32k+</div>
+								<div class="item-content-main__text">Artworks</div>
+							</div>
+							<div class="content-main__item item-content-main">
+								<div class="item-content-main__value">20k+</div>
+								<div class="item-content-main__text">Auctions</div>
+							</div>
+							<div class="content-main__item item-content-main">
+								<div class="item-content-main__value">12k+</div>
+								<div class="item-content-main__text">Creators</div>
+							</div>
+						</div>
+					</div>
+					<div class="main__media media-main">
+						<picture><source srcset="img/main/main-image.webp" type="image/webp"><img class="media-main__image" src="img/main/main-image.jpg" alt="main-image"></picture>
+					</div>
+				</div>
+			</section>
+
+			<section class="page__partners partners">
+				<div class="partners__container">
+					<div class="partners__items">
+						<div class="partners__item"><img src="img/main/1.svg" alt="partners"></div>
+						<div class="partners__item"><img src="img/main/2.svg" alt="partners"></div>
+						<div class="partners__item"><img src="img/main/3.svg" alt="partners"></div>
+						<div class="partners__item"><img src="img/main/4.svg" alt="partners"></div>
+					</div>
+				</div>
+			</section>
+
+			<section class="page__auctions auctions">
+				<div class="auctions__container">
+					<h2 class="auctions__title title">Live Auctions</h2>
+					<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+
+					<div class="auctions__content content-auctions">
+						<div class="content-auctions__active">
+							<button type="button" class="content-auctions__button content-auctions__button--prev"></button>
+							<button type="button" class="content-auctions__button content-auctions__button--next"></button>
+						</div>
+						<!-- Оболонка слайдера -->
+						<div class="content-auctions__slider swiper">
+							<!-- Частина слайдера, що рухається -->
+							<div class="content-auctions__wrapper swiper-wrapper">
+								<!-- Слайд -->
+								<div class="content-auctions__slide swiper-slide">
+									<article class="swiper-slide__item">
+										<div class="swiper-slide__image"><picture><source srcset="img/auctions/1.webp" type="image/webp"><img src="img/auctions/1.jpg" alt="avatar"></picture></div>
+										<div class="swiper-slide__body swiper-slide-body">
+											<div class="swiper-slide-body__left left-slide-body">
+												<div class="left-slide-body__avatar"><img src="img/auctions/profile.svg" alt="profile">
+												</div>
+												<div class="left-slide-body__content">
+													<div class="left-slide-body__name">Virtual Art</div>
+													<div class="left-slide-body__by">by @wzard</div>
+												</div>
+											</div>
+											<div class="swiper-slide-body__right right-slide-body">
+												<div class="right-slide-body__like"><img src="img/auctions/like.svg" alt="like"></div>
+												<div class="right-slide-body__value">92</div>
+											</div>
+										</div>
+										<div class="swiper-slide__content content-swiper-slide">
+											<div class="content-swiper-slide__text">Current Bid</div>
+											<div class="content-swiper-slide__value">4.89 ETH</div>
+										</div>
+										<div class="swiper-slide__active"><a href="#" class="swiper-slide__button">Place a bid</a></div>
+									</article>
+								</div>
+								<div class="content-auctions__slide swiper-slide">
+									<article class="swiper-slide__item">
+										<div class="swiper-slide__image"><picture><source srcset="img/auctions/2.webp" type="image/webp"><img src="img/auctions/2.jpg" alt="avatar"></picture></div>
+										<div class="swiper-slide__body swiper-slide-body">
+											<div class="swiper-slide-body__left left-slide-body">
+												<div class="left-slide-body__avatar"><img src="img/auctions/profile.svg" alt="profile">
+												</div>
+												<div class="left-slide-body__content">
+													<div class="left-slide-body__name">Virtual Art</div>
+													<div class="left-slide-body__by">by @wzard</div>
+												</div>
+											</div>
+											<div class="swiper-slide-body__right right-slide-body">
+												<div class="right-slide-body__like"><img src="img/auctions/like.svg" alt="like"></div>
+												<div class="right-slide-body__value">92</div>
+											</div>
+										</div>
+										<div class="swiper-slide__content content-swiper-slide">
+											<div class="content-swiper-slide__text">Current Bid</div>
+											<div class="content-swiper-slide__value">4.89 ETH</div>
+										</div>
+										<div class="swiper-slide__active"><a href="#" class="swiper-slide__button">Place a bid</a></div>
+									</article>
+								</div>
+								<div class="content-auctions__slide swiper-slide">
+									<article class="swiper-slide__item">
+										<div class="swiper-slide__image"><picture><source srcset="img/auctions/3.webp" type="image/webp"><img src="img/auctions/3.jpg" alt="avatar"></picture></div>
+										<div class="swiper-slide__body swiper-slide-body">
+											<div class="swiper-slide-body__left left-slide-body">
+												<div class="left-slide-body__avatar"><img src="img/auctions/profile.svg" alt="profile">
+												</div>
+												<div class="left-slide-body__content">
+													<div class="left-slide-body__name">Virtual Art</div>
+													<div class="left-slide-body__by">by @wzard</div>
+												</div>
+											</div>
+											<div class="swiper-slide-body__right right-slide-body">
+												<div class="right-slide-body__like"><img src="img/auctions/like.svg" alt="like"></div>
+												<div class="right-slide-body__value">92</div>
+											</div>
+										</div>
+										<div class="swiper-slide__content content-swiper-slide">
+											<div class="content-swiper-slide__text">Current Bid</div>
+											<div class="content-swiper-slide__value">4.89 ETH</div>
+										</div>
+										<div class="swiper-slide__active"><a href="#" class="swiper-slide__button">Place a bid</a></div>
+									</article>
+								</div>
+								<div class="content-auctions__slide swiper-slide">
+									<article class="swiper-slide__item">
+										<div class="swiper-slide__image"><picture><source srcset="img/auctions/2.webp" type="image/webp"><img src="img/auctions/2.jpg" alt="avatar"></picture></div>
+										<div class="swiper-slide__body swiper-slide-body">
+											<div class="swiper-slide-body__left left-slide-body">
+												<div class="left-slide-body__avatar"><img src="img/auctions/profile.svg" alt="profile">
+												</div>
+												<div class="left-slide-body__content">
+													<div class="left-slide-body__name">Virtual Art</div>
+													<div class="left-slide-body__by">by @wzard</div>
+												</div>
+											</div>
+											<div class="swiper-slide-body__right right-slide-body">
+												<div class="right-slide-body__like"><img src="img/auctions/like.svg" alt="like"></div>
+												<div class="right-slide-body__value">92</div>
+											</div>
+										</div>
+										<div class="swiper-slide__content content-swiper-slide">
+											<div class="content-swiper-slide__text">Current Bid</div>
+											<div class="content-swiper-slide__value">4.89 ETH</div>
+										</div>
+										<div class="swiper-slide__active"><a href="#" class="swiper-slide__button">Place a bid</a></div>
+									</article>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="auctions__active"><a href="#" class="auctions__button button button--view">View All</a></div>
+				</div>
+			</section>
+
+			<section class="page__how how">
+				<div class="how__container">
+					<h2 class="how__title">How it works</h2>
+					<div class="how__items">
+						<div class="how__item how__item--1">
+							<div class="how__image"><img src="img/how/1.svg" alt="icon"></div>
+							<div class="how__text">Set up your wallet</div>
+						</div>
+						<div class="how__item how__item--2">
+							<div class="how__image"><img src="img/how/2.svg" alt="icon"></div>
+							<div class="how__text">Create your collection</div>
+						</div>
+						<div class="how__item how__item--3">
+							<div class="how__image"><img src="img/how/3.svg" alt="icon"></div>
+							<div class="how__text">Add your NFTs</div>
+						</div>
+						<div class="how__item">
+							<div class="how__image"><img src="img/how/4.svg" alt="icon"></div>
+							<div class="how__text">List them for sale</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="page__collection collection">
+				<div class="collection__container">
+					<h2 class="collection__title title title--red">Popular Collections</h2>
+					<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+
+					<div class="collection__content content-collection">
+
+						<!-- Оболонка слайдера -->
+						<div class="content-collection__slider swiper">
+							<!-- Частина слайдера, що рухається -->
+							<div class="content-collection__wrapper swiper-wrapper">
+								<!-- Слайд -->
+								<div class="content-collection__slide swiper-slide-collection">
+									<article class="swiper-slide-collection__item">
+										<div class="swiper-slide-collection__image"><picture><source srcset="img/collections/1.webp" type="image/webp"><img src="img/collections/1.jpg" alt="avatar"></picture></div>
+										<div class="swiper-slide-collection__body">
+											<div class="swiper-slide-collection__content">
+												<div class="swiper-slide-collection__avatar"><img src="img/collections/profile.svg" alt="profile"></div>
+												<div class="swiper-slide-collection__name">@wzard</div>
+											</div>
+											<div class="swiper-slide-collection__value">ERC-721</div>
+										</div>
+									</article>
+								</div>
+								<div class="content-collection__slide swiper-slide-collection">
+									<article class="swiper-slide-collection__item">
+										<div class="swiper-slide-collection__image"><picture><source srcset="img/collections/2.webp" type="image/webp"><img src="img/collections/2.jpg" alt="avatar"></picture></div>
+										<div class="swiper-slide-collection__body">
+											<div class="swiper-slide-collection__content">
+												<div class="swiper-slide-collection__avatar"><img src="img/collections/profile.svg" alt="profile"></div>
+												<div class="swiper-slide-collection__name">@wzard</div>
+											</div>
+											<div class="swiper-slide-collection__value">ERC-721</div>
+										</div>
+									</article>
+								</div>
+								<div class="content-collection__slide swiper-slide-collection">
+									<article class="swiper-slide-collection__item">
+										<div class="swiper-slide-collection__image"><picture><source srcset="img/collections/3.webp" type="image/webp"><img src="img/collections/3.jpg" alt="avatar"></picture></div>
+										<div class="swiper-slide-collection__body">
+											<div class="swiper-slide-collection__content">
+												<div class="swiper-slide-collection__avatar"><img src="img/collections/profile.svg" alt="profile"></div>
+												<div class="swiper-slide-collection__name">@wzard</div>
+											</div>
+											<div class="swiper-slide-collection__value">ERC-721</div>
+										</div>
+									</article>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<div class="collection__active"><a href="#" class="collection__button button button--view">View All</a></div>
+				</div>
+			</section>
+
+			<section class="page__explore explore">
+				<div class="explore__container">
+					<h2 class="explore__title title">Explore By Categories</h2>
+					<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+
+					<div class="explore__content content-auctions">
+
+						<!-- Оболонка слайдера -->
+						<div class="content-explore__slider swiper">
+							<!-- Частина слайдера, що рухається -->
+							<div class="content-explore__wrapper swiper-wrapper">
+								<!-- Слайд -->
+								<div class="content-explore__slide swiper-slide-explore">
+									<article class="swiper-slide-explore__item">
+										<div class="swiper-slide-explore__image"><picture><source srcset="img/explore/1.webp" type="image/webp"><img src="img/explore/1.jpg" alt="avatar"></picture></div>
+										<div class="swiper-slide-explore__body swiper-slide-body">
+											<div class="swiper-slide-body-explore__left left-slide-body">
+												<div class="left-slide-body-explore__avatar"><img src="img/auctions/profile.svg" alt="profile">
+												</div>
+												<div class="left-slide-body-explore__content">
+													<div class="left-slide-body-explore__name">Virtual Art</div>
+													<div class="left-slide-body-explore__by">by @wzard</div>
+												</div>
+											</div>
+											<div class="swiper-slide-body-explore__right right-slide-body-explore">
+												<div class="right-slide-body-explore__like"><img src="img/auctions/like.svg" alt="like"></div>
+												<div class="right-slide-body-explore__value">92</div>
+											</div>
+										</div>
+										<div class="swiper-slide__content content-swiper-slide-explore">
+											<div class="content-swiper-slide-explore__text">Current Bid</div>
+											<div class="content-swiper-slide-explore__value">4.89 ETH</div>
+										</div>
+
+									</article>
+								</div>
+								<div class="content-explore__slide swiper-slide-explore">
+									<article class="swiper-slide-explore__item">
+										<div class="swiper-slide-explore__image"><picture><source srcset="img/explore/2.webp" type="image/webp"><img src="img/explore/2.jpg" alt="avatar"></picture></div>
+										<div class="swiper-slide-explore__body swiper-slide-body">
+											<div class="swiper-slide-body-explore__left left-slide-body">
+												<div class="left-slide-body-explore__avatar"><img src="img/auctions/profile.svg" alt="profile">
+												</div>
+												<div class="left-slide-body-explore__content">
+													<div class="left-slide-body-explore__name">Virtual Art</div>
+													<div class="left-slide-body-explore__by">by @wzard</div>
+												</div>
+											</div>
+											<div class="swiper-slide-body-explore__right right-slide-body-explore">
+												<div class="right-slide-body-explore__like"><img src="img/auctions/like.svg" alt="like"></div>
+												<div class="right-slide-body-explore__value">92</div>
+											</div>
+										</div>
+										<div class="swiper-slide__content content-swiper-slide-explore">
+											<div class="content-swiper-slide-explore__text">Current Bid</div>
+											<div class="content-swiper-slide-explore__value">4.89 ETH</div>
+										</div>
+
+									</article>
+								</div>
+								<div class="content-explore__slide swiper-slide-explore">
+									<article class="swiper-slide-explore__item">
+										<div class="swiper-slide-explore__image"><picture><source srcset="img/explore/3.webp" type="image/webp"><img src="img/explore/3.jpg" alt="avatar"></picture></div>
+										<div class="swiper-slide-explore__body swiper-slide-body">
+											<div class="swiper-slide-body-explore__left left-slide-body">
+												<div class="left-slide-body-explore__avatar"><img src="img/auctions/profile.svg" alt="profile">
+												</div>
+												<div class="left-slide-body-explore__content">
+													<div class="left-slide-body-explore__name">Virtual Art</div>
+													<div class="left-slide-body-explore__by">by @wzard</div>
+												</div>
+											</div>
+											<div class="swiper-slide-body-explore__right right-slide-body-explore">
+												<div class="right-slide-body-explore__like"><img src="img/auctions/like.svg" alt="like"></div>
+												<div class="right-slide-body-explore__value">92</div>
+											</div>
+										</div>
+										<div class="swiper-slide__content content-swiper-slide-explore">
+											<div class="content-swiper-slide-explore__text">Current Bid</div>
+											<div class="content-swiper-slide-explore__value">4.89 ETH</div>
+										</div>
+
+									</article>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<div class="auctions__active"><a href="#" class="auctions__button button button--view">View All</a></div>
+				</div>
+			</section>
+
+			<section class="page__creators creators">
+				<div class="creators__container">
+					<h2 class="creators__title title title--red">Top Creators</h2>
+					<div class="creators__row">
+						<div class="creators__item item-creators">
+							<div class="item-creators__content">
+								<div class="item-creators__avatar"><img src="img/auctions/profile.svg" alt="avatar"></div>
+								<div class="item-creators__body">
+									<div class="item-creators__name">Wzard Dee</div>
+									<div class="item-creators__eth">4.89 ETH</div>
+								</div>
+							</div>
+							<div class="item-creators__value">
+								<div class="item-creators__num">33</div>
+								<div class="item-creators__text">Items</div>
+							</div>
+						</div>
+						<div class="creators__item item-creators">
+							<div class="item-creators__content">
+								<div class="item-creators__avatar"><picture><source srcset="img/explore/avatar.webp" type="image/webp"><img src="img/explore/avatar.jpg" alt="avatar"></picture></div>
+								<div class="item-creators__body">
+									<div class="item-creators__name">Wzard Dee</div>
+									<div class="item-creators__eth">4.89 ETH</div>
+								</div>
+							</div>
+							<div class="item-creators__value">
+								<div class="item-creators__num">33</div>
+								<div class="item-creators__text">Items</div>
+							</div>
+						</div>
+					</div>
+					<div class="creators__row">
+						<div class="creators__item item-creators">
+							<div class="item-creators__content">
+								<div class="item-creators__avatar"><img src="img/auctions/profile.svg" alt="avatar"></div>
+								<div class="item-creators__body">
+									<div class="item-creators__name">Wzard Dee</div>
+									<div class="item-creators__eth">4.89 ETH</div>
+								</div>
+							</div>
+							<div class="item-creators__value">
+								<div class="item-creators__num">33</div>
+								<div class="item-creators__text">Items</div>
+							</div>
+						</div>
+						<div class="creators__item item-creators">
+							<div class="item-creators__content">
+								<div class="item-creators__avatar"><picture><source srcset="img/explore/avatar.webp" type="image/webp"><img src="img/explore/avatar.jpg" alt="avatar"></picture></div>
+								<div class="item-creators__body">
+									<div class="item-creators__name">Wzard Dee</div>
+									<div class="item-creators__eth">4.89 ETH</div>
+								</div>
+							</div>
+							<div class="item-creators__value">
+								<div class="item-creators__num">33</div>
+								<div class="item-creators__text">Items</div>
+							</div>
+						</div>
+					</div>
+					<div class="creators__active"><a href="#" class="creators__button button button--view">View All</a></div>
+				</div>
+			</section>
+
+			<section class="page__subscribe subscribe">
+				<div class="subscribe__container">
+					<h2 class="subscribe__title">Ready for Next NFT Drop?</h2>
+					<form action="#" class="subscribe__form form-subscribe">
+						<input type="text" class="form-subscribe__input" placeholder="info@gmail.com">
+						<button class="form-subscribe__button button button--yellow">Subscribe</button>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__content content-footer">
+					<div class="content-footer__logo"><a href="#" class="footer__logo"><img src="img/footer/footer-logo.svg" alt="logo"></a></div>
+					<div class="content-footer__body">
+						<div class="content-footer__text">Nec, enim sed lacus, magna pharetra. Phasellus tincidunt nulla pharetra gravida est. </div>
+						<div class="content-footer__icons">
+							<a href="#" class="content-footer__icon _icon-youtube"></a>
+							<a href="#" class="content-footer__icon _icon-twitter"></a>
+							<a href="#" class="content-footer__icon _icon-facebook"></a>
+							<a href="#" class="content-footer__icon _icon-google"></a>
+						</div>
+						<div class="content-footer__reserved">All rights reserved@2021</div>
+					</div>
+				</div>
+				<div class="footer__column column-footer">
+					<div class="column-footer__title">About Us</div>
+					<a href="#" class="column-footer__link">About NFTs</a>
+					<a href="#" class="column-footer__link">Live Auctions</a>
+					<a href="#" class="column-footer__link">NFT Blog</a>
+					<a href="#" class="column-footer__link">Activity</a>
+				</div>
+				<div class="footer__column column-footer">
+					<div class="column-footer__title">Support</div>
+					<a href="#" class="column-footer__link">Help & Support</a>
+					<a href="#" class="column-footer__link">Item Details</a>
+					<a href="#" class="column-footer__link">Author Profile</a>
+					<a href="#" class="column-footer__link">Collection</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20230219150359"></script>
+</body>
+
+</html>
